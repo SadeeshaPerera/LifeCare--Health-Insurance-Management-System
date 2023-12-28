@@ -1,0 +1,88 @@
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    background-color: rgb(5, 61, 87);
+   font-family: arial;
+    z-index: 1000;
+}
+/* background-color: rgb(56, 56, 56);*/
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo .site-name{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+    font-family: 'Play', sans-serif;
+}
+
+.logo img{
+    width: 50px;
+    object-fit: cover;
+}
+
+.middle-list{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav{
+    list-style-type: none;
+   padding: 0;
+}
+
+.nav li{
+    float: left;
+    margin-right: 10px;
+    padding: 8px 15px;
+    font-size: 17px;
+    transition: color 0.4s;
+}
+
+ li a:hover{ 
+    color: rgb(219, 222, 228);
+}
+
+.buttons button{
+    padding: 8px 15px;   
+    background-color: rgb(73, 138, 132);
+    border: none;
+    color: rgb(235, 235, 235);
+    font-size: 15px;
+    width: 100;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    opacity: 1;
+}
+
+.buttons button:hover{
+    opacity: 0.8;
+}
+
+.buttons button:active{
+    opacity: 0.4;
+}
+
+.buttons{
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: rgb(85, 163, 157);
+}
