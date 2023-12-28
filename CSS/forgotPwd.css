@@ -1,0 +1,78 @@
+body{
+    background-image: url("../Images/bg17.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    margin-left: 36%;  
+}
+
+.content{
+    margin-top: auto;  
+}
+
+h2{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 40px;    
+}
+
+p{
+    text-align: center;
+    font-family:  Arial, sans-serif;
+    font-style: italic;
+}
+
+.textbox{
+    display: flex;
+    justify-content: center;
+}
+
+.textbox input[type="text"]{
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #a09e9e;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(138, 187, 236);
+    border-bottom: 1px solid #9b9999 ;
+    border-right:  1px solid #9b9999;
+    border-top:  1px solid #9b9999 ;
+    border-left:  1px solid #9b9999;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 25px;
+    width: 100px;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.1);
+}
+
+p2 {
+    margin-left: 200px;  
+}
+
+p2 a:hover{
+    color: rgb(221, 49, 49);
+    transform: scale(1.1);
+}
