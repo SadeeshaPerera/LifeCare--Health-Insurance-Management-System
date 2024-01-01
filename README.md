@@ -4,9 +4,9 @@
 <h3>🔰 Demo Video About this Web Application : https://youtu.be/icUjZI3ujTc </h3>
 
 ### Key Features for Customers 💁
-
+<p align="center">
 <img src="https://i.ibb.co/HFRtcyy/LifeCare.png" alt="LifeCare" border="0"></a><br />
-
+</p>
 
 
 <li> Home Page
@@ -28,7 +28,9 @@
 
 ### Main Features for Administrators 🛡️
 
+<p align="center">
 <img> <a href="https://ibb.co/yQwttdV"><img src="https://i.ibb.co/W2bZZGs/Screenshot-194.png" alt="CRUD" border="0"></a>
+</p>
 
 <li> Admin Login Page 
 <li> Admin Manage Claims (Claim CRUD Operations) 
@@ -40,8 +42,9 @@
 
 <h3>Login Page 🔑</h3>
 
+<p align="center">
 <a href="https://ibb.co/CKm8qfV"><img src="https://i.ibb.co/LdYRM39/Screenshot-103.png" alt="LoginPage" border="0"></a><br />
-
+</p>
 
 #### 🔒 Sample Login Credentials 
 
@@ -87,7 +90,7 @@ Normal User/Customer Login Details
 - 💎 Admin Portal: A user-friendly admin dashboard for administrative purposes.
 
 
- We encourage students,developers and technology enthusiasts to explore and learn from our implementation.
+ We encourage students, developers and technology enthusiasts to explore and learn from our implementation.
 
 
 We are proud of the hard work and dedication poured into this project and hope that sharing it on GitHub will inspire others to innovate and contribute to the advancement of technology in the insurance industry.
