@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: #cceaff; 
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    background-color: rgb(5, 61, 87); 
+   
+    z-index: 1000;
+}
+
+/* background-color: rgb(56, 56, 56);*/
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo .site-name{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+    font-family: 'Play', sans-serif;
+}
+
+.logo img{
+    width: 50px;
+    object-fit: cover;
+}
+
+.middle-list{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+   padding: 0;
+}
+
+ul li{
+    float: left;
+    margin-right: 10px;
+    padding: 8px 15px;
+    font-size: 17px;
+    transition: color 0.4s;
+}
+
+ul li a:hover{ 
+    color: rgb(219, 222, 228);
+}
+
+.action{
+    color: rgb(219, 222, 228);
+}
+
+.buttons button{
+    padding: 8px 15px;   
+    background-color: rgb(73, 138, 132);
+    border: none;
+    color: rgb(235, 235, 235);
+    font-size: 15px;
+    width: 100;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    opacity: 1;
+}
+
+.buttons button:hover{
+    opacity: 0.8;
+}
+
+.buttons button:active{
+    opacity: 0.4;
+}
+
+.buttons{
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(85, 163, 157);
+}
+
+.sidebar{
+ width: 310px;
+ background-color: rgb(181, 177, 197);
+ top: 0;
+ position: absolute;
+ bottom: 0;
+ box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+.middle-picture img{
+    width: 400px;
+   margin-top: 10px;
+  
+}
+
+.middle-picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.caption{
+    margin-top: 100px;
+    width: 200px;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 520px;
+    color: rgb(53, 53, 53);
+}
+
+.container{
+    display: flex;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    width: 500px;
+    margin-left: 310px;
+    top: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.sidebar img{
+    width: 18px;
+}
+
+.main-details{
+    margin-top: 30px;
+    height: 550px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+.address-details,
+.contact-details,
+.mail-details{
+    margin-top: 15px;
+}
+
+.card{
+    color: rgb(37, 35, 35);
+    display: flex;
+    margin-left:40px ;
+    align-items: center; font-size: 16px;
+}
+
+.card img{
+    margin-right: 10px;
+}
+
+.details{
+    align-items: center;
+   margin-left: 70px;
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.message-image img{
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.icon img{
+    width: 30px;
+    opacity: 0.9;
+}
+
+.icon-bar{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;   
+}
+
+.icon .tooltip{
+    opacity: 0;
+    transition: opacity 0.5s; 
+    font-size: 13px;
+}
+
+.icon:hover .tooltip{
+    opacity: 1;
+}
+
+.right-content{
+    left: 820px;
+    top: 110px;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(37, 35, 35);
+    flex-direction: column;
+    width: 550px;
+}
+
+
+.message-text{
+    color: rgb(29, 14, 14);
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-family: iskolapotha;
+}
+
+.right-content button{
+    display: flex;
+    width: 100px;
+    padding: 12px 14px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0,0,0,0.4);
+    margin: 20px 250px;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.right-content button:hover{
+  opacity: 0.7;
+}
+
+button img{
+    width: 18px;
+}
+
+.right-content label{
+    font-size: 15px;
+}
+
+.name input,
+.email input,
+.phone input,
+.subject input{
+    border: none;
+    width: 250px;
+    padding: 8px 20px;
+    margin-left: 15px;
+    opacity: 0.8;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.name input{
+margin-left: 75px;
+}
+.email input
+{
+    margin-left: 77px;
+}
+
+.subject input
+{
+    margin-left: 67px;
+}
+
+/*
+.box{
+    width: 300px;
+    height: 100px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+*/
+
+.message{
+    margin-left: 24px;
+    display: flex;
+}
+
+textarea{
+    margin-left: 45px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name,
+.email,
+.phone,
+.subject{
+    margin-left: 24px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../Images/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: arial;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    background-color: rgb(5, 61, 87); 
+   
+    z-index: 1000;
+}
+/* background-color: rgb(56, 56, 56);   background-color: rgb(102, 75, 75); */
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo .site-name{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+    font-family: 'Play', sans-serif;
+}
+
+.logo img{
+    width: 50px;
+    object-fit: cover;
+}
+
+.middle-list{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+   padding: 0;
+}
+
+ul li{
+    float: left;
+    margin-right: 10px;
+    padding: 8px 15px;
+    font-size: 17px;
+    transition: color 0.4s;
+}
+
+ul li a:hover{ 
+    color: rgb(219, 222, 228);
+}
+
+.buttons button{
+    padding: 8px 15px;   
+    background-color: rgb(73, 138, 132);
+    border: none;
+    color: rgb(235, 235, 235);
+    font-size: 15px;
+    width: 100;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    opacity: 1;
+}
+
+.buttons button:hover{
+    opacity: 0.8;
+}
+
+.buttons button:active{
+    opacity: 0.4;
+}
+
+.buttons{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(85, 163, 157);
+}
+
+.user button img{
+    width: 20px;
+}
+
+.buttons input{
+    padding: 3px 8px;
+    border: none;
+    outline:none ;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.buttons input::placeholder{
+    font-size: 12px;
+}
+
+
+.user button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 100%;
+    background-color:rgb(173, 173, 173) ;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 13px;
+    font-family: arial;
+    margin-top: 18px;
+    color: rgb(219, 222, 228);
+}
+
+.tooltip{
+    margin-top: 5px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.user:hover .tooltip{
+    opacity: 1;
+}
+
+@media all and (max-width:600px){
+    .text{
+        text-align: center;
+        margin-top: 90px;
+        margin-left: 0;
+    }
+
+
+    .claim-container{
+        margin-top: 120px; 
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .new-claim,
+    .history{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .claim-image img{
+        width: 400px;
+        margin-top: 180px;
+    }
+}
+
+.text{
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    display: flex;
+    left: 120px;
+    top: 130px;
+    font-size: 24px;
+    word-spacing: 5PX;
+    color: rgb(53, 35, 35);
+}
+
+
+.claim-container{
+    position: absolute;
+    top: 150px;
+    display: flex;
+    margin-left: 70px;
+    height:200px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.new-claim,
+.history{
+    width: 200px;
+    height: 100px;
+    padding: 8px 15px;
+    background-color: rgb(36, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 20px;
+    color: rgb(235, 235, 235);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: padding 0.4s;
+}
+
+/**/
+.claim-image img{
+    position: relative;
+    top: 263px;
+    left: 60px;
+    width: 390px;
+    height: 390px;
+    object-fit: cover;
+
+}
+
+.new-claim:hover{
+    padding: 15px 25px;
+    width: 220px;
+    font-size: 20px;
+}
+
+.history:hover{
+    padding: 15px 25px;
+    font-size: 20px;
+    width: 240px;
+    text-align: center;
+}
