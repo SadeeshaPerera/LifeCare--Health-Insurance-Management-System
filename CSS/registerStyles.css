@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../Images/bg_register.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 100px 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+.wrapper .icon-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #162938;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/*Form Details*/
+.form-box h2 {
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+}
+
+.input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label {
+    color: #000000;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.input-box input {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 1em;
+    color: #162938;
+    background: transparent;
+    margin-top: 8px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+#form .column {
+    display: flex;
+    column-gap: 15px;
+}
+
+.gender-box, .uType-box {
+    margin-top: 20px;
+}
+
+.gender-box h3, .uType-box h3 {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+#form :where(.gender-option, .gender, .uType-option, .uType) {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.gender, .uType {
+    column-gap: 5px;
+}
+
+#form :where(.gender input, .gender label, .uType input, .uType label) {
+    cursor: pointer;
+}
+
+.gender label, .uType label {
+    color: #162938;
+}
+
+.check {
+    margin: 20px 0;
+}
+
+.inputStyle {
+    margin-right: 5px;
+}
+
+/*Submit Button*/
+#submitBtn {
+    width: 100%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+#submitBtn:hover {
+    background-color: #204561;
+    color: #fff;
+    font-weight: 700;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: rgb(97, 96, 96);
+}
+
+.login-register {
+    font-size: .9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 600;
+    margin: 25px 0 10px;
+}
+
+.login-register p a {
+    color: #112432;
+    text-decoration: none;
+    font-size: 1.15em;
+    font-weight: 700;
+}
+
+.login-register p a:hover {
+    text-decoration: underline;
+}
+
+.link {
+    color: #162938;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/*Responsive*/
+@media screen and (max-width: 500px) {
+    #form .column {
+        flex-wrap: wrap;
+    }
+
+    #form :where(.gender-option, .gender, .uType-option, .uType) {
+        row-gap: 15px;
+    }
+}
