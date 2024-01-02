@@ -1,0 +1,40 @@
+body {
+	background-image:url('../Images/pexels-negative-space.jpg');
+	background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	color:black;
+}
+
+.cont {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+	background-color:#989898;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #C70039;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+.faq-question {
+    font-size: 24px;
+    color: #C70039;
+    margin-bottom: 10px;
+}
+
+.faq-answer {
+    color: black;
+    line-height: 1.6;
+}
+
