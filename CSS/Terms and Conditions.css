@@ -1,0 +1,58 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	/* background-image: url('../Images/pexels-castorly-stock-4058242.jpg'); */
+    background-color: #dadcf7;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #5D6D7E;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+ul li {
+    background-color: #dfdddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+	color:black;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
