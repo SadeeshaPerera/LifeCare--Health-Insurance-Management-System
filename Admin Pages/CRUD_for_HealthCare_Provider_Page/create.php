@@ -8,7 +8,7 @@ $database = "iwt_assignment";
 
 //create connection
 
-$connection = new mysqli($servername, $username,$password,$database,3307);
+$connection = new mysqli($servername, $username,$password,$database);
 
 
  $HCP_ID="";

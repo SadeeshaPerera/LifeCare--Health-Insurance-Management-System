@@ -7,7 +7,7 @@ $password = "";
 $database = "iwt_assignment";
 
 // Create connection
-$connection = new mysqli($servername, $username, $password, $database,3307);
+$connection = new mysqli($servername, $username, $password, $database);
 
 $Policy_ID = "";
 $Pkg_ID= "";

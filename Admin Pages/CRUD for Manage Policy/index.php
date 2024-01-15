@@ -45,7 +45,7 @@
 
               //create connection
 
-              $connection = new mysqli($servername, $username,$password,$database,3307);
+              $connection = new mysqli($servername, $username,$password,$database);
               
                      if($connection -> connect_error){
                         die("connection failed:" . $connection->connect_error);
